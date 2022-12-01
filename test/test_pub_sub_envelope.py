@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.pub_sub_envelope import PubSubEnvelope  # noqa: E501
-from swagger_client.rest import ApiException
+import whylogs_container_client
+from whylogs_container_client.models.pub_sub_envelope import PubSubEnvelope  # noqa: E501
+from whylogs_container_client.rest import ApiException
 
 
 class TestPubSubEnvelope(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPubSubEnvelope(unittest.TestCase):
     def testPubSubEnvelope(self):
         """Test PubSubEnvelope"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.pub_sub_envelope.PubSubEnvelope()  # noqa: E501
+        # model = whylogs_container_client.models.pub_sub_envelope.PubSubEnvelope()  # noqa: E501
         pass
 
 

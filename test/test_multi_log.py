@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.multi_log import MultiLog  # noqa: E501
-from swagger_client.rest import ApiException
+import whylogs_container_client
+from whylogs_container_client.models.multi_log import MultiLog  # noqa: E501
+from whylogs_container_client.rest import ApiException
 
 
 class TestMultiLog(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMultiLog(unittest.TestCase):
     def testMultiLog(self):
         """Test MultiLog"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.multi_log.MultiLog()  # noqa: E501
+        # model = whylogs_container_client.models.multi_log.MultiLog()  # noqa: E501
         pass
 
 

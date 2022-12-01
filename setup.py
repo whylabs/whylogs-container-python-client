@@ -12,6 +12,8 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
+print(find_packages())
+
 NAME = "whylogs-container-client"
 VERSION = "1.0.0"
 # To install the library, run the following
@@ -27,9 +29,9 @@ setup(
     name=NAME,
     version=VERSION,
     description="whylogs container API",
-    author_email="",
+    author_email="anthony@whylabs.ai",
     url="",
-    keywords=["Swagger", "whylogs container API"],
+    keywords=["swagger", "whylogs", "container", "client"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,

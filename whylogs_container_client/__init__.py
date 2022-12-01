@@ -15,14 +15,14 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
-from swagger_client.api.debug_api import DebugApi
-from swagger_client.api.whylogs_api import WhylogsApi
+from whylogs_container_client.api.debug_api import DebugApi
+from whylogs_container_client.api.whylogs_api import WhylogsApi
 # import ApiClient
-from swagger_client.api_client import ApiClient
-from swagger_client.configuration import Configuration
+from whylogs_container_client.api_client import ApiClient
+from whylogs_container_client.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.log_request import LogRequest
-from swagger_client.models.message import Message
-from swagger_client.models.multi_log import MultiLog
-from swagger_client.models.pub_sub_envelope import PubSubEnvelope
-from swagger_client.models.write_profiles_response import WriteProfilesResponse
+from whylogs_container_client.models.log_request import LogRequest
+from whylogs_container_client.models.message import Message
+from whylogs_container_client.models.multi_log import MultiLog
+from whylogs_container_client.models.pub_sub_envelope import PubSubEnvelope
+from whylogs_container_client.models.write_profiles_response import WriteProfilesResponse

@@ -14,8 +14,8 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.log_request import LogRequest
-from swagger_client.models.message import Message
-from swagger_client.models.multi_log import MultiLog
-from swagger_client.models.pub_sub_envelope import PubSubEnvelope
-from swagger_client.models.write_profiles_response import WriteProfilesResponse
+from whylogs_container_client.models.log_request import LogRequest
+from whylogs_container_client.models.message import Message
+from whylogs_container_client.models.multi_log import MultiLog
+from whylogs_container_client.models.pub_sub_envelope import PubSubEnvelope
+from whylogs_container_client.models.write_profiles_response import WriteProfilesResponse
