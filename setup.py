@@ -15,7 +15,7 @@ from setuptools import setup, find_packages  # noqa: H301
 print(find_packages())
 
 NAME = "whylogs-container-client"
-VERSION = "1.0.0"
+VERSION = "0.0.1"
 # To install the library, run the following
 #
 # python setup.py install
@@ -33,7 +33,8 @@ setup(
     url="",
     keywords=["swagger", "whylogs", "container", "client"],
     install_requires=REQUIRES,
-    packages=find_packages(),
+    package_dir = {"": "src"},
+    packages=find_packages(where="src"),
     include_package_data=True,
     long_description="""\
     Container that hosts the java version of whylogs behind a REST interface.  # noqa: E501
