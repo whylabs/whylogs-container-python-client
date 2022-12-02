@@ -4,6 +4,14 @@ This package is the auto generated python client for the [whylogs container](htt
 - [Docs](https://docs.whylabs.ai/docs/integrations-whylogs-container/)
 - [whylogs container](https://github.com/whylabs/whylogs-container/)
 
+## Usage
+
+Install with
+
+```bash
+pip install whylogs-container-client
+```
+
 ## Examples
 
 This example shows how you can bulk upload data from a pandas dataframe.
