@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "whylogs-container-client"
-VERSION = "0.0.6"
+VERSION = "0.0.1"
 REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 
 from pathlib import Path
