@@ -18,7 +18,8 @@ This example shows how you can bulk upload data from a pandas dataframe.
 
 ```python
 import pandas
-from whylogs_container_client.api import Configuration, WhylogsApi, ApiClient
+from whylogs_container_client.api import WhylogsApi
+from whylogs_container_client import Configuration, ApiClient
 
 config = Configuration()
 config.host = 'http://localhost:8080'
@@ -33,6 +34,9 @@ del multiple['index'] # get rid of this to min/max payload size
 
 payload = {
   'datasetId': 'model-1',
+  'tags': { # Optional segment tags
+    'city': 'seattle'
+  },
   'multiple': multiple
 }
 
