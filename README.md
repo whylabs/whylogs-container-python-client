@@ -1,4 +1,4 @@
-This package is the auto generated python client for the [whylogs container](https://github.com/whylabs/whylogs-container/).
+This package is the auto generated python client for the [whylogs container](https://github.com/whylabs/whylogs-container/). This client won't work for the newer [whylogs python container](https://github.com/whylabs/whylogs-container-python)
 
 - [Swagger API](https://whylabs.github.io/whylogs-container-docs/whylogs-container)
 - [Docs](https://docs.whylabs.ai/docs/integrations-whylogs-container/)
